@@ -28,7 +28,7 @@ It is very easy to install this application using the [BalenaCloud](https://www.
 1. [Balena Setup](https://www.balena.io/): you need a BalenaCloud account and your edge device must be running the BalenaOs.  You also need to create an application in your balena dashboard and associate your edge device to it (see balena documentation).
 2. clone this github repository (this can be done on any device where git is installed) through the following command `git clone https://github.com/janvda/balena-node-red-mqtt-nginx-TIG-stack.git` (instead of directly cloning the repository it migh be better to fork the github repository and then clone this forked repository).
 3. Move into this repository by command `cd balena-edge-device-monitoring`
-4. Add balena git remote endpoint by running a command like `git remote add balena <USERNAME>@git.www.balena.io:<USERNAME>/<APPNAME>.git`
+4. Add balena git remote endpoint by running a command like `git remote add balena <USERNAME>@git.balena-cloud.com:<USERNAME>/<APPNAME>.git`
 5. push the repository to balena by the command `git push balena master` (maybe you need to add the option `--force` the first time you are deploying).
 
 ![build finished successful](./build%20finished%20successful.png)
